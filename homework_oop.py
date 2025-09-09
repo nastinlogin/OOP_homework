@@ -134,7 +134,7 @@ print(student.rate_lecture(lecturer, 'С++', 8))  # Ошибка
 print(student.rate_lecture(reviewer, 'Python', 6))  # Ошибка
 print(lecturer.grades)  # {'Python': [7]}
 
-# #задание_3
+#задание_3
 some_student = Student('Ruoy', 'Eman', 'Мужской')
 some_student.courses_in_progress.append('Python')
 some_student.courses_in_progress.append('Git')
@@ -180,7 +180,6 @@ student_2.rate_lecture(lecturer_2, 'Python', 7)
 student_2.rate_lecture(lecturer_2, 'Git', 10)
 
 #проверяющие ставят оценки за домашние задания
-
 reviewer_1.rate_hw(student_1, 'Введение в программирование', 10)
 reviewer_1.rate_hw(student_1, 'Python', 9)
 reviewer_1.rate_hw(student_1, 'Git', 10)
